@@ -40,7 +40,7 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="h-5 w-5 text-primary" />
-                  <p>contact@akar-interiors.com</p>
+                  <p>1aakarinterior@gmail.com</p>
                 </div>
               </div>
 
