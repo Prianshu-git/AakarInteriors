@@ -7,8 +7,7 @@ import {
 } from "react-icons/si";
 
 const socialLinks = [
-  { icon: SiInstagram, href: "#", label: "Instagram" },
-  { icon: SiPinterest, href: "#", label: "Pinterest" },
+  { icon: SiInstagram, href: "https://www.instagram.com/aakar_interiors01?igsh=MTZoeHBiZGUxN2Qwdw==", label: "Instagram" },
   { icon: SiFacebook, href: "#", label: "Facebook" },
   { icon: SiLinkedin, href: "#", label: "LinkedIn" }
 ];

@@ -28,15 +28,15 @@ export default function Contact() {
           >
             <div className="space-y-8">
               <h2 className="text-2xl font-serif mb-6">Contact Information</h2>
-              
+
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <MapPin className="h-5 w-5 text-primary" />
-                  <p>123 Luxury Lane, Design District</p>
+                  <p>241/2A, Acharya Prafulla Chandra Road, Kolkata- 700004</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="h-5 w-5 text-primary" />
-                  <p>+1 (555) 123-4567</p>
+                  <p>+91 7980564905, +91 7439 888 953</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="h-5 w-5 text-primary" />
