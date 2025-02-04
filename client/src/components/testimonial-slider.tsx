@@ -7,21 +7,27 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Johnson",
+    name: "Ms Agarwal",
     role: "Homeowner",
     content: "आकर Interiors transformed our space into something beyond our imagination. Their attention to detail is impeccable."
   },
   {
     id: 2,
-    name: "Michael Chen",
+    name: "Mr Ganguly",
     role: "Property Developer",
     content: "Working with आकर has been a pleasure. They understand luxury and deliver excellence consistently."
   },
   {
     id: 3,
-    name: "Emily Williams",
-    role: "Real Estate Agent",
-    content: "The designs by आकर Interiors have significantly increased property values for my clients."
+    name: "Akash Roy",
+    role: "Business Owner",
+    content: "The designs by आकर Interiors have significantly increased the value of my properties."
+  },
+  {
+    id: 4,
+    name: "Mrs Diksha",
+    role: "Interior Design Enthusiast",
+    content: "Their attention to detail and understanding of modern aesthetics is unmatched."
   }
 ];
 

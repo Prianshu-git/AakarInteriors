@@ -11,11 +11,11 @@ export default function HeroSection() {
           animate="visible"
           variants={fadeIn}
         >
-          Luxury Living,
+          Give Your Home
           <br />
-          Redefined
+          A New आकर
         </motion.h1>
-        
+
         <motion.p
           className="text-lg md:text-xl text-foreground/60 max-w-2xl mx-auto mb-8"
           initial="hidden"
@@ -32,11 +32,20 @@ export default function HeroSection() {
           animate="visible"
           variants={fadeIn}
           transition={{ delay: 0.4 }}
+          className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12"
         >
           <motion.img
-            src="https://images.unsplash.com/photo-1445510861639-5651173bc5d5"
-            alt="Luxury Interior"
-            className="w-full h-[60vh] object-cover rounded-lg shadow-2xl"
+            src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb3"
+            alt="Luxury Living Room"
+            className="w-full h-[40vh] object-cover rounded-lg shadow-2xl"
+            loading="lazy"
+            whileHover={{ scale: 1.02 }}
+            transition={{ duration: 0.3 }}
+          />
+          <motion.img
+            src="https://images.unsplash.com/photo-1600585154084-4957766b28d8"
+            alt="Modern Kitchen"
+            className="w-full h-[40vh] object-cover rounded-lg shadow-2xl"
             loading="lazy"
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
