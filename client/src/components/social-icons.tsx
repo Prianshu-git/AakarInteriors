@@ -8,7 +8,7 @@ import {
 
 const socialLinks = [
   { icon: SiInstagram, href: "https://www.instagram.com/aakar_interiors01?igsh=MTZoeHBiZGUxN2Qwdw==", label: "Instagram" },
-  { icon: SiFacebook, href: "#", label: "Facebook" },
+  { icon: SiFacebook, href: "https://www.facebook.com/profile.php?id=61572517303076", label: "Facebook" },
   { icon: SiLinkedin, href: "#", label: "LinkedIn" }
 ];
 
