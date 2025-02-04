@@ -44,9 +44,9 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
             {[
-              "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
-              "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68",
-              "https://images.unsplash.com/photo-1600566752447-f7234e9e6d5d"
+              "https://images.unsplash.com/photo-1600566752355-35792bedcfea",
+              "https://images.unsplash.com/photo-1600607686527-6fb886090705",
+              "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
             ].map((src, index) => (
               <motion.div
                 key={src}
@@ -54,13 +54,17 @@ export default function Home() {
                 whileInView="visible"
                 viewport={{ once: true }}
                 variants={index % 2 === 0 ? fadeInLeft : fadeInRight}
+                className="relative aspect-square group overflow-hidden rounded-lg shadow-xl"
               >
                 <img
                   src={src}
                   alt={`Luxury Interior ${index + 1}`}
-                  className="w-full h-80 object-cover rounded-lg shadow-lg"
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                   loading="lazy"
                 />
+                <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <p className="text-white text-xl font-serif">Luxury Interior {index + 1}</p>
+                </div>
               </motion.div>
             ))}
           </div>

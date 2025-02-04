@@ -34,22 +34,26 @@ export default function HeroSection() {
           transition={{ delay: 0.4 }}
           className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12"
         >
-          <motion.img
-            src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb3"
-            alt="Luxury Living Room"
-            className="w-full h-[40vh] object-cover rounded-lg shadow-2xl"
-            loading="lazy"
-            whileHover={{ scale: 1.02 }}
-            transition={{ duration: 0.3 }}
-          />
-          <motion.img
-            src="https://images.unsplash.com/photo-1600585154084-4957766b28d8"
-            alt="Modern Kitchen"
-            className="w-full h-[40vh] object-cover rounded-lg shadow-2xl"
-            loading="lazy"
-            whileHover={{ scale: 1.02 }}
-            transition={{ duration: 0.3 }}
-          />
+          <motion.div className="relative overflow-hidden rounded-lg shadow-2xl">
+            <motion.img
+              src="https://images.unsplash.com/photo-1600121848594-d8644e57abab"
+              alt="Luxury Living Room"
+              className="w-full h-[40vh] object-cover"
+              loading="lazy"
+              whileHover={{ scale: 1.02 }}
+              transition={{ duration: 0.3 }}
+            />
+          </motion.div>
+          <motion.div className="relative overflow-hidden rounded-lg shadow-2xl">
+            <motion.img
+              src="https://images.unsplash.com/photo-1600489000022-c2086d79f9d4"
+              alt="Modern Kitchen"
+              className="w-full h-[40vh] object-cover"
+              loading="lazy"
+              whileHover={{ scale: 1.02 }}
+              transition={{ duration: 0.3 }}
+            />
+          </motion.div>
         </motion.div>
       </div>
     </section>
