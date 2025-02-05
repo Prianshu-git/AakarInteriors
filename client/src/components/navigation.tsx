@@ -20,7 +20,7 @@ export default function Navigation() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="/">
-            <a className="text-2xl font-serif tracking-tight">आकर Interiors</a>
+            <a className="text-2xl font-serif tracking-tight">आकार Interiors</a>
           </Link>
           
           <div className="hidden md:flex space-x-8">
