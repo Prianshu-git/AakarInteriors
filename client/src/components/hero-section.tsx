@@ -13,7 +13,7 @@ export default function HeroSection() {
         >
           Give Your Home
           <br />
-          A New आकर
+          A New आकार
         </motion.h1>
 
         <motion.p
@@ -23,7 +23,7 @@ export default function HeroSection() {
           variants={fadeIn}
           transition={{ delay: 0.2 }}
         >
-          Transform your space into a masterpiece of design with आकर Interiors. 
+          Transform your space into a masterpiece of design with आकार Interiors. 
           Where luxury meets lifestyle.
         </motion.p>
 
